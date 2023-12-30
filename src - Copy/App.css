@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+#box1{
+width: 50vw;
+height:100vh;
+color: whitesmoke;
+background-color: #001718;;
+display: flex;
+flex-direction: column;
+}
+
+#box2{
+  color: whitesmoke;
+width: 50vw;
+height:100vh;
+background: url(./cf31e949bb3595bcd1cfe9769fa2d3eb.jpg);
+background-repeat: no-repeat;
+background-size: 50vw 100vh;
+
+}
+#nt {
+position: relative;
+top : 80vh;
+left: 0vw;
+font-size: 2.5rem;
+}
+
+/* navbar */
+#navBar{
+  width: 50vw;
+  height: 5vh;
+  border: 2px solid white;
+  background-color: #006064;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2rem;
+  padding: 3px;
+}
+#ig{
+ background: url(instagram\ \(2\).png); 
+  width: 26px;
+  padding: 4px;
+  margin: 3px;
+  background-size: 36px 27px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+
+
+}
+ 
+#linkd{
+
+  background : url(linkd.png);
+  width: 26px;
+  padding:4px;
+  margin: 3px;
+  background-size: 36px 27px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  
+}
+
+
+
+
+
+
+
+
+/* footer  */
+
+#footer{    
+  background-color: black;
+  width: 98.7vw;
+  height: 3.3vh;
+  position: absolute;
+  top: 97vh;
+  font-size: 12px;
+
+} 
+
+@media (max-width:425px) {
+  #box1{
+    width: 100vw;
+    
+    font-size :15px;
+  }
+  #box2{
+    width: 0px;
+    height: 0px;
+}
+#nt{ width: 0px;
+  height: 0px;}
+#navBar{width: 100vw;}
+#footer{width: 100vw;}
+
+}

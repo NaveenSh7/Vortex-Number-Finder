@@ -1,38 +1,182 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
+#box1{
+width: 50vw;
+height:100vh;
+color: whitesmoke;
+background-color: #001718;;
+display: flex;
+flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#box2{
+  color: whitesmoke;
+width: 50vw;
+height:100vh;
+background: url(./cf31e949bb3595bcd1cfe9769fa2d3eb.jpg);
+background-repeat: no-repeat;
+background-size: 50vw 100vh;
+
+}
+#nt {
+position: relative;
+top: 68vh;
+left: 0vw;
+font-size: 2rem;
+}
+
+/* navbar */
+#navBar{
+  width: 50vw;
+  height: 5vh;
+  border: 2px solid white;
+  background-color: #006064;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2rem;
+  padding: 3px;
+}
+#ig{
+  cursor: pointer;
+ background: url(pngwing.com.png); 
+ width: 27px;
+ padding: 3px;
+ margin: 5px 30px;
+ background-size: 33px 25px;
+ /* background-color: whitesmoke; */
+ border-radius: 0px;
+ height: 2.8vh;
+
+
+}
+ 
+#linkd{
+  cursor: pointer;
+  background : url(linkd.png);
+  width: 26px;
+  padding:4px;
+  margin: 3px 0px;
+  background-size: 36px 27px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  height: 3vh;
+  
+}
+
+
+
+
+
+
+
+
+/* footer  */
+
+#footer{    
+  background-color: black;
+  width: 98.7vw;
+  height: 3.3vh;
+  position: absolute;
+  top: 97vh;
+  font-size: 12px;
+
+} 
+
+
+
+h1{
+  margin-top: 117px;
+  margin-bottom: 32px;
+font-family: cursive;
+
+}
+
+#container input{
+  width: 16vw;
+  /* padding: 9px 1px; */
+  margin: 7px 17px;
+  height: 4vh;
+}
+#container{
+  margin-top: 50px;
+}
+#findBtn{
+  cursor: pointer;
+  height: 4.7vh;
+ }
+
+#findBtn:hover{
+background-color: #3ab7bd;
+color: whitesmoke;
+}
+
+#is{
+  margin-top: 68px;
+  font-size: 2rem;
+
+  font-family: cursive;
+}
+
+#num{
+  margin-top: -20px;
+  font-size: 5rem;
+}
+
+
+
+
+
+
+/* quickly making it responsive */
+
+@media (max-width:430px) {
+#box1{
+  width: 100vw;
+  height: 100vh;
+}
+#box2
+{width: 0px;
+height: 0px;
+}
+#nt{
+  font-size: 0;
+  width: 0px;
+  height: 0px;
+  
+}
+
+#navBar {
+  width: 99vw;
+  height: 5vh;
+  border: 2px solid white;
+  background-color: #006064;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2rem;
+  padding: 0px;
+}
+/* #navBar{width: 100vw;}
+#footer{width: 100vw;} */
+
+
+h1{
+  margin-top: 66px;
+  margin-bottom: 21px;
+  font-family: cursive;
+  font-size: 1.5rem;
+}
+
+#container input {
+  width: 48vw;
+}
+#is {
+  margin-top: 68px;
+  font-size: 1.5rem;
+ 
+}
+#footer{height: 3vh;}
 }
