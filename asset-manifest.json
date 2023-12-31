@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Vortex-Number-Finder/static/css/main.b0f66121.css",
+    "main.js": "/Vortex-Number-Finder/static/js/main.2edfe6ce.js",
+    "static/media/pngwing.com.png": "/Vortex-Number-Finder/static/media/pngwing.com.cf2d8d59d9842ae83b04.png",
+    "static/media/jpg": "/Vortex-Number-Finder/static/media/cf31e949bb3595bcd1cfe9769fa2d3eb.48c15ea814ca4f1f8128.jpg",
+    "index.html": "/Vortex-Number-Finder/index.html",
+    "main.b0f66121.css.map": "/Vortex-Number-Finder/static/css/main.b0f66121.css.map",
+    "main.2edfe6ce.js.map": "/Vortex-Number-Finder/static/js/main.2edfe6ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0f66121.css",
+    "static/js/main.2edfe6ce.js"
+  ]
+}
